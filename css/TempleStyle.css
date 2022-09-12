@@ -1,0 +1,334 @@
+* , *:after , *:before
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	font-family: cursive ;
+}
+.home
+{
+    position: relative ;
+    width: 100% ;
+    height: 600px ;
+    overflow: hidden ;
+    background-image: url("../images/image-01.jpg");
+    background-repeat: no-repeat ;
+    background-position: center center ;
+    background-size: cover ;
+}
+/* ---------------------------------------- start : navbar section ---------------------------------------- */ 
+.home   .navbar
+{
+    position: fixed ;
+    width: 100% ;
+    height: auto ;
+    overflow: hidden ;
+    padding: 5px ;
+    z-index: 999 ;
+/*    border: 2px solid #000 ;    */
+}
+.home   .navbar     ul
+{
+    list-style: none ;
+    text-align: center ;
+/*    border: 2px solid #f00 ;    */
+}
+.home   .navbar     ul      li
+{
+    display: inline-block ;
+    margin: 10px ;
+    padding: 10px ;
+/*    border: 2px solid #0f0 ;    */
+}
+.home   .navbar     ul      li      a
+{
+    color: #fff;
+    text-decoration: none ;
+    text-transform: capitalize ;
+    font-size: 18px ;
+/*    border: 2px solid #00f ;    */
+}
+/* ---------------------------------------- start : header section ---------------------------------------- */ 
+.home   .header
+{
+    position: absolute ;
+    top: 50% ;
+    left: 50% ;
+    transform: translate( -50% , -50% );
+    width:  350px ;
+    height: 120px ;
+    text-align: center ;
+    color: #fff ;
+/*    border: 2px solid #ff0 ;    */
+}
+.home   .header   .headerH3
+{
+    font-size: 50px ;
+    text-transform: capitalize ;
+    margin-bottom: 10px ;
+}
+.home   .header   .headerPara
+{
+    font-size: 26px ;
+    margin-top: 10px ;
+}
+/* //////////////////////////////////////// about section ////////////////////////////////////////////////////  */
+/* //////////////////////////////////////// services section /////////////////////////////////////////////////  */
+/* //////////////////////////////////////// testimonials section /////////////////////////////////////////////  */
+/* ///////////////////////////////// contact section ///////////////////////////////////////// */
+.about          ,
+.services       ,
+.testimonials   ,
+.contact
+{
+    width: 100% ;
+    height: auto;
+    overflow: hidden ;
+    background-position: center center ; 
+    background-repeat: no-repeat ;
+    background-size: cover ;
+}
+.about          .aboutInfo      ,
+.services      .servicesInfo
+{
+    width: 300px ;
+    height: 100% ;
+    padding: 2% ;
+    background-color: rgba(0,0,0,0.5);
+/*    border: 2px solid #f00 ; */
+}
+.about          .aboutInfo       .aboutInfoH3      ,
+.services      .servicesInfo     .servicesInfoH3
+{
+    margin: 0 ;
+    padding: 0 ;
+    margin: 30px auto ;
+    color: rgba(255,255,115,0.8);
+    font-size: 30px ;
+    text-transform: capitalize ;
+}
+.about         .aboutInfo        .aboutInfoPara1    ,
+.about         .aboutInfo        .aboutInfoPara2    , 
+.services      .servicesInfo     .servicesInfoPara1 ,
+.services      .servicesInfo     .servicesInfoPara2 ,
+.services      .servicesInfo     .servicesInfoPara3
+{
+    margin: 0 ;
+    padding: 0 ;
+    margin: 30px auto ;
+    color: rgba(255,255,255,0.7) ;
+    line-height: 2 ;
+    font-size: 18px ;
+}
+
+/* //////////////////////////////////////// about section /////////////////////////////////////////////////  */
+.about
+{
+  background-image: url("../images/image-02.jpg");
+}
+.about      .aboutInfo
+{
+    float: right; 
+    margin-right: 5% ;
+}
+/* //////////////////////////////////////// services section /////////////////////////////////////////////////  */
+.services
+{
+    background-image: url("../images/image-03.jpg");
+}
+.services      .servicesInfo
+{
+    float: left; 
+    margin-left: 5% ;
+}
+/* ///////////////////////////////////////////////// testimonials section ////////////////////////////////////// */
+.testimonials
+{
+    background-image: url("../images/image-04.jpeg");
+}
+.testimonials       .testimonialsContainer
+{
+    width: 80% ;
+    height: auto ;
+    overflow: hidden ;
+    margin: 0px auto ;
+    padding: 50px 0px ;
+/*    border: 2px solid #f00 ;    */
+}
+.testimonials       .testimonialsContainer      .testimonialsH3
+{
+    text-align: center ;
+    text-transform: capitalize ;
+    font-size: 35px ;
+    margin-bottom: 50px ;
+}
+/* ////////////// box 1 ////////////// */
+.testimonials       .testimonialsContainer      .testimonialsBox
+{
+    float: left ;
+    width: 31.3333% ;
+    height: auto ;
+    overflow: hidden ;
+    padding: 3%  0% ;
+    color: #fff ;
+    background-color: rgba(0,0,0,0.6);
+}
+.testimonials       .testimonialsContainer      .testimonialsBox:nth-of-type(1)
+{
+    margin-left: 0 ;
+    margin-right: 2% ;
+}
+.testimonials       .testimonialsContainer      .testimonialsBox:nth-of-type(2)
+{
+    margin-left: 1% ;
+    margin-right: 1% ;
+}
+.testimonials       .testimonialsContainer      .testimonialsBox:nth-of-type(3)
+{
+    margin-left: 2% ;
+    margin-right: 0% ;
+}
+.testimonials       .testimonialsContainer      .testimonialsBox    .testimonialsBoxIcon
+{
+    text-align: center ;
+    margin: 20px  auto ;
+}
+.testimonials       .testimonialsContainer      .testimonialsBox     .testimonialsBoxPara
+{
+    padding: 0%  10% ; 
+    line-height: 1.8 ;
+}
+/* ///////////////////////////////// contact section ///////////////////////////////////////// */
+.contact
+{
+    background-image: url("../images/image-05.jpg");
+}
+.contact        .contactInfo
+{
+    float: right ;
+    width: 350px ;
+    height: auto;
+    overflow: hidden ;
+    margin-right: 4% ;
+    background-color: rgba(0,0,0,0.5);
+    padding-bottom: 2% ; 
+/*    border: 2px solid #f0f ;    */
+}
+.contact        .contactInfo        .contactInfoH3
+{
+    margin: 0 ;
+    padding: 0 ;
+    margin: 20px auto ;
+    color: rgba(255,255,115,0.8);
+    font-size: 28px ;
+    text-transform: capitalize ;
+    margin-left: 40px ;
+    margin-top: 60px; 
+}
+.contact        .contactInfo        form
+{
+    display: block ;
+    margin: 1%  5% ;
+}
+.contact        .contactInfo       form        input       , 
+.contact        .contactInfo       form        textarea 
+{
+    width: 85% ;
+    padding: 15px ;
+    margin: 10px ;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff ;
+    border: 0 ;
+    outline: 0 ;
+}
+/* -------------------------- placeholder of inputFields of form -------------------------- */
+.contact        .contactInfo       form        input::-webkit-input-placeholder   , 
+.contact        .contactInfo       form        textarea::-webkit-input-placeholder  
+{
+    font-size: 15px ;
+    color: #666 ;
+}
+.contact        .contactInfo       form     .submitClass
+{
+    width: 100px ;
+    height: 45px ;
+    text-transform: capitalize ;
+    font-size: 18px ;
+    color: #999 ;
+    background-color: rgba(0,0,0,0.5);
+    border: 0 ;
+    outline: 0 ;
+    cursor: pointer ;
+}
+/* ############################################ media query ############################################ */
+/* ----------------------------------- small screen ----------------------------------- */
+@media( min-width:0px ) and ( max-width:700px)
+{
+    /* ******************************* navbar section *******************************  */
+    .home   .navbar     ul      li
+    {
+        margin: 2px ;
+    }
+    .home   .navbar     ul      li      a
+    {
+        font-size: 16px ;
+    }
+    /* ******************************* about section *******************************  */
+    /* ******************************* services section *******************************  */
+    .about          .aboutInfo       .aboutInfoH3      ,
+    .services      .servicesInfo     .servicesInfoH3
+    {
+        font-size: 30px ;
+    }
+    .about         .aboutInfo        .aboutInfoPara1    ,
+    .about         .aboutInfo        .aboutInfoPara2    , 
+    .services      .servicesInfo     .servicesInfoPara1 ,
+    .services      .servicesInfo     .servicesInfoPara2 ,
+    .services      .servicesInfo     .servicesInfoPara3
+    {
+        font-size: 16px ;
+    }
+    /* ******************************* testimonials section *******************************  */
+    .testimonials       .testimonialsContainer      .testimonialsBox
+    {
+        float: none ;
+        width: 100% ;
+        margin: 20px  0 ;
+        text-align: center ;
+    }
+    .testimonials       .testimonialsContainer      .testimonialsBox     .testimonialsBoxPara
+    {
+        font-size: 16px ;
+    }
+}
+/* ----------------------------------- medium screen ----------------------------------- */
+@media( min-width:701px ) and ( max-width:1000px)
+{
+    /* ******************************* testimonials section *******************************  */
+    .testimonials       .testimonialsContainer      .testimonialsBox:nth-of-type(1)
+    {
+        width: 48% ;
+        margin-left: 0 ;
+        margin-right: 1% ;
+        margin-bottom: 20px ;
+        text-align: center ;
+    }
+    .testimonials       .testimonialsContainer      .testimonialsBox:nth-of-type(2)
+    {
+        width: 48% ;
+        margin-left: 1% ;
+        margin-right: 0 ;
+        margin-bottom: 20px ;
+        text-align: center ;
+    }
+    .testimonials       .testimonialsContainer      .testimonialsBox:nth-of-type(3)
+    {
+        float: none ;
+        width: 48% ;
+        margin-left: 24% ;
+        margin-right: 24% ;
+        text-align: center ;
+    }
+}
